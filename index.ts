@@ -7,7 +7,6 @@ interface Todo {
   userId: number
   id: number,
   title: string,
-
 }
 
 axios.get(url).then(response => {
